@@ -1,0 +1,37 @@
+.shadow {
+    display: table;
+    max-width: 1100px;
+    margin: auto;
+    border: 1px solid #efecec;
+}
+.homepage {
+    margin: 15px;
+}
+.container-details {
+    display: flex;
+}
+.first-container {
+    width: 30%;
+}
+
+.second-container {
+    width: 70%;
+    margin-left: 30px;
+}
+
+
+
+
+
+@media (max-width:600px){
+    .container-details {
+        display: initial;
+    }
+    .second-container {
+        width: 100%;
+        margin-left: 30px;
+    } 
+    .first-container {
+        width: 100%;
+    } 
+}

@@ -29,7 +29,7 @@
 }
 .present h5 {
     margin-bottom: -9px;
-    margin-top: -15px;
+    margin-top: 11px;
     color: #833d5d;
     font-size: 15px;
 }
@@ -145,6 +145,9 @@ ul.list-sys li {
         display: initial;
     }
     .container-experence {
+        display: initial;
+    }
+    .link-list {
         display: initial;
     }
 }
