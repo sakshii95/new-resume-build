@@ -1,4 +1,13 @@
-
+.shadow {
+    display: table;
+    max-width: 1100px;
+    margin: auto;
+    border: 1px solid #efecec;
+}
+.homepage {
+    margin: 15px;
+  
+}
 
 
 
@@ -114,7 +123,7 @@ span.dark {
     justify-content: space-evenly;
     display: flex;
 }
-.small-circle1 {
+/* .small-circle1 {
     width: 12%;
     padding: 18px 15px;
     border: 1px solid blue;
@@ -127,16 +136,9 @@ span.dark {
     border: 1px solid blue;
     border-radius: 50%;
     width: 15%;
-}
-.circle {
-    margin-bottom: -12px;
-    margin-top: 10px;
-    padding: 6px 9px;
-    border: 1px solid blue;
-    border-radius: 50%;
-    width: 30%;
-}
-.small-circle1 {
+} */
+
+/* .small-circle1 {
     background-color: red;
     padding: 9px 8px;
     border-radius: 50%;
@@ -165,8 +167,8 @@ span.dark {
 .small-circle3 {
     background-color: red;
     padding: 9px 8px;
-    border-radius: 50%;
-}
+    border-radius: 50%; */
+
 .first-page h3 {
     color: #5a5858;
     font-size: 17px;
