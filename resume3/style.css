@@ -1,0 +1,240 @@
+
+
+
+
+
+.container-system {
+    display: flex;
+}
+.right-container h2 {
+    color: #e71414;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.details1 h1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 33px;
+        margin-left: 32px; 
+    
+}
+.details1 {
+    padding: 4px;
+    background-color: #034159;
+    color: white;
+}
+.details {
+    color: white;
+    background-color: #0b0b40;
+}
+.link-list ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+ul.list1 li {
+    font-size: 15px;
+    margin-bottom: 11px;
+    list-style-type: none;
+}
+.left-container h2 {
+    color: #e71414;
+   font-family: sans-serif;
+    font-size: 22px;
+}
+.border-lenght {
+    margin-top: -17px;
+    border-bottom: 3px solid #e71414;
+    width: 53%;
+}
+.border-lenght3 {
+    margin-top: -17px;
+    border-bottom: 3px solid #e71414;
+    width: 20%;
+}
+.border-lenght4 {
+    margin-top: -17px;
+    border-bottom: 3px solid #e71414;
+    width: 45%;
+}
+.border-lenght5{
+    margin-top: -17px;
+    border-bottom: 3px solid #e71414;
+    width: 65%;
+}
+.border-lenght1 {
+    margin-top: -17px;
+    border-bottom: 3px solid #e71414;
+    width: 33%;
+}
+.sep-div {
+    margin-bottom: -32px;
+    justify-content: space-between;
+    display: flex;
+   
+}
+.right-container {
+    width: 50%;
+}
+.left-container {
+    width: 50%;
+    margin-left: 56px;
+}
+.right-container h4 {
+    margin-top: -17px;
+    font-weight: 500;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.sep-div h5 {
+    font-family: cursive;
+    font-size: 14px;
+    color: #f58a8a;
+    font-weight: 600;
+}
+ul.list2 li {
+    color: #f58a8a;
+    font-size: 18px;
+    margin-left: -21px;
+}
+span.dark {
+    font-family: sans-serif;
+    color: #2e2e2e;
+    font-size: 16px;
+}
+
+
+.right-container h5 {
+    font-family: cursive;
+    font-size: 14px;
+    color: #f58a8a;
+    font-weight: 600;
+    margin-top: -20px;
+}
+.language-container {
+    justify-content: space-evenly;
+    display: flex;
+}
+.small-circle1 {
+    width: 12%;
+    padding: 18px 15px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.circle {
+    margin-bottom: -12px;
+    margin-top: 10px;
+    padding: 18px 15px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 15%;
+}
+.circle {
+    margin-bottom: -12px;
+    margin-top: 10px;
+    padding: 6px 9px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 30%;
+}
+.small-circle1 {
+    background-color: red;
+    padding: 9px 8px;
+    border-radius: 50%;
+}
+.circle3 {
+    margin-bottom: -12px;
+    margin-top: 10px;
+    padding: 6px 9px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 30%;  
+}
+.circle2 {
+    margin-bottom: -12px;
+    margin-top: 10px;
+    padding: 6px 9px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 30%;  
+}
+.small-circle2 {
+    background-color: red;
+    padding: 9px 8px;
+    border-radius: 50%;
+}
+.small-circle3 {
+    background-color: red;
+    padding: 9px 8px;
+    border-radius: 50%;
+}
+.first-page h3 {
+    color: #5a5858;
+    font-size: 17px;
+}
+.left-container h3 {
+    color: #5c5959;
+    font-size: 17px;
+}
+.left-container h4 {
+    margin-top: -11px;
+    font-family: cursive;
+    color: gray;
+    font-size: 16px;
+}
+.details1 h2 {
+    margin-left: 32px;
+    margin-bottom: -9px;
+    margin-top: -20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #c93f3f;
+}
+.details1 p {
+    margin-left: 32px; 
+}
+
+
+@media(max-width:600px){
+    .details1 h2 {
+        margin-left: 0px;
+        
+    }
+    .details1 h1 {
+            margin-left: 0px; 
+        
+    }
+    .details1 p {
+        margin-left: 0px; 
+    }
+    
+    .language-container {
+        display: initial;
+    }
+    ul.list2 li {
+        color: #f58a8a;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .left-container {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .right-container {
+        width: 100%;
+    }
+    .sep-div {
+        display: initial
+    }
+    .container-system {
+        display: initial;
+    }  
+    .link-list ul {
+        display: initial;
+    }
+
+
+
+
+}
+
