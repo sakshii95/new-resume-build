@@ -235,9 +235,7 @@ i.fa-brands.fa-linkedin {
 
 
 @media (max-width:600px){
-    .link-sep {
-        display: initial;
-    }
+    
     .language-spanish {
         margin-left: 0px;
     }

@@ -25,6 +25,7 @@
 .sep-div{
     display: flex;
 
+
 }
 .first-container h2 {
     color: #04818f;
@@ -38,6 +39,7 @@
     border-radius: 6px;
     padding: 6px;
     background-color: #58718d;
+  
 }
 .first-container h3 {
     font-family: sans-serif;
@@ -89,7 +91,7 @@
     color: black;
     font-size: 16px;
     font-family: sans-serif;
-    margin-left: 8px;
+    margin-left: 6px;
 }
 .second-container p {
     word-spacing: 1px;
@@ -172,11 +174,6 @@ i.fa-solid.fa-file {
     .present {
         display: initial;
     }
-    .sep-div{
-        display: initial;
+   
     
-    }
-    .link-list1 h3 {
-        margin-left: 0px;
-    }
 }
