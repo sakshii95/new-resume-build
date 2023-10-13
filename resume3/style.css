@@ -5,11 +5,30 @@
     border: 1px solid #efecec;
 }
 .homepage {
-    margin: 15px;
+    margin: 8px;
   
 }
-
-
+.big-container {
+    display: flex;
+     
+}
+.details{
+    background-color: #35353a;
+    color: white;
+    padding: 7px;
+}
+.image-container img {
+    border-radius: 109px;
+    width: 100%;
+}
+.link-list-sys {
+    color: white;
+    background-color: #262626;
+    padding: 7px;
+}
+.link-sep {
+    display: flex;
+}
 
 
 .container-system {
@@ -27,23 +46,18 @@
         margin-left: 32px; 
     
 }
-.details1 {
-    padding: 4px;
-    background-color: #034159;
-    color: white;
-}
-.details {
-    color: white;
-    background-color: #0b0b40;
-}
+
+
 .link-list ul {
     display: flex;
     justify-content: space-evenly;
 }
+
 ul.list1 li {
     font-size: 15px;
     margin-bottom: 11px;
     list-style-type: none;
+    margin-left: 11px;
 }
 .left-container h2 {
     color: #e71414;
@@ -53,27 +67,27 @@ ul.list1 li {
 .border-lenght {
     margin-top: -17px;
     border-bottom: 3px solid #e71414;
-    width: 53%;
+    width: 44%;
 }
 .border-lenght3 {
     margin-top: -17px;
     border-bottom: 3px solid #e71414;
-    width: 20%;
+    width: 17%;
 }
 .border-lenght4 {
     margin-top: -17px;
     border-bottom: 3px solid #e71414;
-    width: 45%;
+    width: 37%;
 }
 .border-lenght5{
     margin-top: -17px;
     border-bottom: 3px solid #e71414;
-    width: 65%;
+    width: 53%;
 }
 .border-lenght1 {
     margin-top: -17px;
     border-bottom: 3px solid #e71414;
-    width: 33%;
+    width: 27%;
 }
 .sep-div {
     margin-bottom: -32px;
@@ -249,7 +263,15 @@ span.dark {
     .border-lenght{
         width: 100%;
     }
-
+    .big-container {
+        display: initial;
+    }
+    .link-sep {
+        display: initial;
+    }
+    ul.list1 li {
+        margin-left: 0px;
+    }
 
 
 

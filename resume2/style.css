@@ -5,7 +5,7 @@
     border: 1px solid #efecec;
 }
 .homepage {
-    margin: 15px;
+    margin: 11px;
   
 }
 
@@ -16,9 +16,9 @@
 .version1 {
     width: 50%;
     color: white;
-    background-color: #5b5d76;
+    background-color: #44454e;
     border-radius: 11px;
-    padding: 7px;
+    padding: 4px;
 }
 .version1 h2 {
     margin-top: 8px;
@@ -41,14 +41,21 @@ ul.list li {
     font-family: sans-serif;
     color: #424141;
     list-style: none;
-    margin-top: 16px;
+    margin-left: 10px;
 }
 .right-container h1 {
-    margin-top: 36px;
+    margin-top: 16px;
     color: #5f5a89;
     font-family: sans-serif;
     font-size: 20px;
+    margin-left: 8px;
 }
+.work-div {
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
 .work-container {
     display: flex;
     justify-content: space-between;
@@ -84,12 +91,47 @@ ul.list-system {
     margin-top: -12px;
 }
 .edu-container h2 {
-    margin-top: 36px;
+    margin-top: 16px;
     color: #5f5a89;
     font-family: sans-serif;
     font-size: 20px;
+    margin-left: 8px;
 
 }
+i.fa-solid.fa-laptop-file {
+    border-radius: 8px;
+    background-color: #44454e;
+    color: white;
+    padding: 6px;
+ 
+}
+
+
+i.fa-solid.fa-briefcase {
+    border-radius: 8px;
+    background-color: #44454e;
+    color: white;
+    padding: 6px;
+  
+
+}
+i.fa-solid.fa-book{
+    border-radius: 8px;
+    background-color: #44454e;
+    color: white;
+    padding: 6px;
+    margin-top: 21px;
+
+}
+i.fa-solid.fa-circle-user {
+    border-radius: 8px;
+    background-color: #44454e;
+    color: white;
+    padding: 6px;
+    margin-top: 21px;
+
+}
+
 .edu-container h3 {
     color: black;
     font-size: 19px;
@@ -118,10 +160,11 @@ ul.list-system {
 }
 .left-container h2 {
     margin-bottom: -2px;
-    margin-top: 39px;
+    margin-top: 24px;
     color: #5f5a89;
     font-family: sans-serif;
     font-size: 20px;
+    margin-left: 7px;
 }
 .left-container h3 {
     font-size: 17px;
@@ -151,7 +194,27 @@ ul.list-sys li {
     list-style-type: none;
     margin-top: 10px;
 }
+.link-sep {
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+}
+i.fa-solid.fa-envelope{
+    color: #44454e;
 
+}
+i.fa-solid.fa-clipboard{
+    color: #44454e;
+}
+i.fa-solid.fa-location-dot{
+    color: #44454e; 
+}
+i.fa-brands.fa-linkedin{
+    color: #44454e; 
+}
+i.fa-solid.fa-s{
+    color: #44454e;   
+}
 
 
 
@@ -170,7 +233,7 @@ ul.list-sys li {
     }
     .version1 {
         width: 100%;
-        padding: 0px;
+        /* padding: 0px; */
     }
     .version{
         display: initial;
@@ -202,9 +265,13 @@ ul.list-sys li {
         width: 100%;
         
     }
+ul.list li {
+    margin-left: 0px;
+}
     .written{
         display: initial;
     }
+   
 }
 
 

@@ -3,9 +3,11 @@
     margin: auto;
     max-width: 1100px;
 }
+
 .homepage {
+    padding: 6px;
     border: 1px solid #efecec;
-    margin: 15px;
+    margin: 5px;
 }
 
 
@@ -36,12 +38,14 @@
     justify-content: space-evenly;
     display: flex;
 }
+
 .link-list li {
     color: #4a4a4a;
     font-size: 15px;
     list-style: none;
     font-family: sans-serif;
     font-weight: 600;
+    margin-left: 12px;
 }
 .skill-list h2 {
     font-family: sans-serif;
@@ -89,13 +93,14 @@
     margin-top: -18px;
     margin-bottom: 0px;
 }
+
 ul.list1 li {
     font-weight: 600;
     color: #5a5959;
     margin-top: 8px;
     margin-left: -34px;
     list-style-type: none;
-    font-size: 17px;
+    font-size: 16px;
     font-family: serif;
 }
 .education-list h2 {
@@ -127,12 +132,12 @@ ul.list1 li {
     font-family: sans-serif;
     font-size: 22px;
     color: #04598d;
-    margin-top: 51px;
+    margin-top: 32px;
 }
 .part-system {
     margin-top: -28px;
-    justify-content: space-between;
     display: flex;
+    align-items: center;
    
 }
 .part-system h3{
@@ -140,6 +145,14 @@ ul.list1 li {
     color: #3a3a3a;
     font-family: sans-serif;
     font-weight: 500;
+   
+}
+.part-system h4 {
+    font-size: 15px;
+    color: #3a3a3a;
+    font-family: sans-serif;
+    font-weight: 500;   
+    margin-left: 320px;
 }
 .organise-list h4 {
     margin-top: 6px;
@@ -199,7 +212,33 @@ ul.list1 li {
 .language-spanish {
     margin-left: 21px;
 }
+i.fa-solid.fa-envelope {
+    color: #04598d;
+}
+i.fa-solid.fa-location-dot {
+    color: #04598d;
+}
+
+
+i.fa-solid.fa-s {
+    color: #04598d;  
+}
+i.fa-solid.fa-clipboard {
+    color: #04598d;     
+}
+i.fa-brands.fa-linkedin {
+    color: #04598d;   
+}
+.link-sep {
+    display: flex;
+}
+
+
+
 @media (max-width:600px){
+    .link-sep {
+        display: initial;
+    }
     .language-spanish {
         margin-left: 0px;
     }
@@ -219,6 +258,15 @@ ul.list1 li {
     }
     .language {
         display: initial;
+    }
+    .text-diff h5 {
+        margin-top: 0px;
+    }
+    .part-system h4 { 
+        margin-left: 0px;
+    }
+    .link-list li {
+        margin-left: 4px;
     }
 
 
